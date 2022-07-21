@@ -72,8 +72,15 @@ class ServiceViewController: UIViewController {
         checkBoxOne.on = false
         checkBoxTwo.on = false
         checkBoxThree.on = false
+        textViewCorrect()
+    }
+    
+    private func textViewCorrect() {
         textView.text = ""
-        
+        textView.resignFirstResponder()
+        textView.text = "Калі ласка, увядзіце тэкст"
+        textView.textColor = UIColor.lightGray
+        textView.font = UIFont(name: "Optima-Regular", size: 15)
     }
     
     @IBAction func segmentAction(_ sender: Any) {
@@ -87,8 +94,7 @@ class ServiceViewController: UIViewController {
     }
     
     @IBAction func clearTextAction(_ sender: Any) {
-        textView.text = ""
-        
+        textViewCorrect()
     }
     
     @IBAction func showTextButtonAction(_ sender: Any) {

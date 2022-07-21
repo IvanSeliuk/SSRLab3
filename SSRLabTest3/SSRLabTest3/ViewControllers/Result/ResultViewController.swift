@@ -33,11 +33,11 @@ class ResultViewController: UIViewController {
     private func setupText() {
         textViewLabel.text = Setting.shared.textViewText
         textPropertyLabel.text =
-        "* \(Setting.shared.segmentText ?? "")\n" +
-        "* \(Setting.shared.pickerText ?? "")\n" +
-        "* \(Setting.shared.checkBoxOneText ?? "")\n" +
-        "* \(Setting.shared.checkBoxTwoText ?? "")\n" +
-        "* \(Setting.shared.checkBoxThreeText ?? "")"
+        "* \(Setting.shared.segmentText ?? "---")\n" +
+        "* \(Setting.shared.pickerText ?? "---")\n" +
+        "* \(Setting.shared.checkBoxOneText ?? "---")\n" +
+        "* \(Setting.shared.checkBoxTwoText ?? "---")\n" +
+        "* \(Setting.shared.checkBoxThreeText ?? "---")"
     }
 
     @IBAction func backButtonAction(_ sender: Any) {
