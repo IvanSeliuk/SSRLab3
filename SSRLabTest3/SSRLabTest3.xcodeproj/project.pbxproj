@@ -19,6 +19,8 @@
 		6D3E7883288764FD00FFD964 /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3E7882288764FD00FFD964 /* UIStoryboard.swift */; };
 		6D3E78862887657400FFD964 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3E78852887657400FFD964 /* ResultViewController.swift */; };
 		6D3E78882887658500FFD964 /* ResultViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D3E78872887658500FFD964 /* ResultViewController.storyboard */; };
+		6D41EF3B28894873006C6A67 /* ResultViewController + UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D41EF3A28894873006C6A67 /* ResultViewController + UI.swift */; };
+		6D41EF3D288948B5006C6A67 /* ServiceViewController + UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D41EF3C288948B5006C6A67 /* ServiceViewController + UI.swift */; };
 		6D86AD322888757400EF2340 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D86AD312888757400EF2340 /* Settings.swift */; };
 		DAA63C2AE012BA7EE25287FC /* Pods_SSRLabTest3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67ED09E234D98D72ADAC8BC7 /* Pods_SSRLabTest3.framework */; };
 /* End PBXBuildFile section */
@@ -40,6 +42,8 @@
 		6D3E7882288764FD00FFD964 /* UIStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStoryboard.swift; sourceTree = "<group>"; };
 		6D3E78852887657400FFD964 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		6D3E78872887658500FFD964 /* ResultViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ResultViewController.storyboard; sourceTree = "<group>"; };
+		6D41EF3A28894873006C6A67 /* ResultViewController + UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ResultViewController + UI.swift"; sourceTree = "<group>"; };
+		6D41EF3C288948B5006C6A67 /* ServiceViewController + UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ServiceViewController + UI.swift"; sourceTree = "<group>"; };
 		6D86AD312888757400EF2340 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		E7F407CDF1743A4FC4E9FFB7 /* Pods-SSRLabTest3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSRLabTest3.release.xcconfig"; path = "Target Support Files/Pods-SSRLabTest3/Pods-SSRLabTest3.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -130,6 +134,7 @@
 			children = (
 				6D3E787E288764D300FFD964 /* ServiceViewController.swift */,
 				6D3E7880288764E100FFD964 /* ServiceViewController.storyboard */,
+				6D41EF3C288948B5006C6A67 /* ServiceViewController + UI.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -139,6 +144,7 @@
 			children = (
 				6D3E78852887657400FFD964 /* ResultViewController.swift */,
 				6D3E78872887658500FFD964 /* ResultViewController.storyboard */,
+				6D41EF3A28894873006C6A67 /* ResultViewController + UI.swift */,
 			);
 			path = Result;
 			sourceTree = "<group>";
@@ -277,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D41EF3D288948B5006C6A67 /* ServiceViewController + UI.swift in Sources */,
 				6D3E7883288764FD00FFD964 /* UIStoryboard.swift in Sources */,
 				6D3E78612887631800FFD964 /* AppDelegate.swift in Sources */,
 				6D86AD322888757400EF2340 /* Settings.swift in Sources */,
@@ -285,6 +292,7 @@
 				6D3E787B2887640900FFD964 /* LoadingViewController + UI.swift in Sources */,
 				6D3E787F288764D300FFD964 /* ServiceViewController.swift in Sources */,
 				6D3E787C2887640900FFD964 /* LoadingViewController.swift in Sources */,
+				6D41EF3B28894873006C6A67 /* ResultViewController + UI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
